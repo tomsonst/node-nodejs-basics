@@ -8,3 +8,5 @@ export const list = async () => {
     console.error('\x1b[31m%s\x1b[0m', new Error('FS operation failed'));
   }
 };
+
+list();

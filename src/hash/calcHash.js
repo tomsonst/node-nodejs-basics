@@ -7,3 +7,5 @@ export const calculateHash = async () => {
     console.log(hash);
   });
 };
+
+calculateHash();

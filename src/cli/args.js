@@ -10,3 +10,5 @@ export const parseArgs = () => {
 
   console.log(resultArr.join(', '));
 };
+
+parseArgs();

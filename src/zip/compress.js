@@ -8,3 +8,5 @@ export const compress = async () => {
 
   readedFile.pipe(gzip).pipe(writedArchive);  
 };
+
+compress();

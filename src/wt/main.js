@@ -22,3 +22,5 @@ export const performCalculations = async () => {
   const result = promisesArray;
   console.log(result)
 };
+
+performCalculations();

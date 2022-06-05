@@ -7,3 +7,5 @@ export const write = async () => {
       writedFile.write(chunk);
     });
 };
+
+write();
