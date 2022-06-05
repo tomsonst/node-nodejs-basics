@@ -1,10 +1,7 @@
 # Node.js basics
 
-For cli functions please use command
+For cli env please use commands
 
-args: node src/cli/args.js --props value --props2 value2
-
-env: 
     add variable: setx RSS_key "Variable value"
     after reload cli, check this variable: npm run cli:env
 
