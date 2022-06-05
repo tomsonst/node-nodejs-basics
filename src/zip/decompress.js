@@ -1,3 +1,10 @@
+import zlib from 'zlib';
+import fs from 'fs';
+
 export const decompress = async () => {
-    // Write your code here 
+  const gzip = zlib.createUnzip();
+  const readedFile = fs.createReadStream('src/zip/files/archive.gz');
+  const writedArchive = fs.createWriteStream('src/zip/files/test.txt');
+
+  readedFile.pipe(gzip).pipe(writedArchive);  
 };
